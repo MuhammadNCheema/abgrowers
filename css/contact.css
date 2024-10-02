@@ -1,0 +1,223 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: RGBa(44, 86, 0, 1);
+    text-shadow: 0 1px 2px rgba(44, 86, 0, .15);
+}
+
+.brace {
+    width: auto;
+    min-width: 35px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    line-height: 2em;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 15px 15px;
+    border: none;
+    background-color: transparent;
+    background-image: -webkit-radial-gradient(circle at 0 0, rgba(255, 255, 255, 0) 14.5px, #fff 15.5px, #fff 19.5px, rgba(255, 255, 255, 0) 20.5px), -webkit-radial-gradient(circle at 35px 0, rgba(255, 255, 255, 0) 14.5px, #fff 15.5px, #fff 19.5px, rgba(255, 255, 255, 0) 20.5px);
+    background-image: -webkit-radial-gradient(0 0 circle, rgba(255, 255, 255, 0) 14.5px, #fff 15.5px, #fff 19.5px, rgba(255, 255, 255, 0) 20.5px), -webkit-radial-gradient(35px 0 circle, rgba(255, 255, 255, 0) 14.5px, #fff 15.5px, #fff 19.5px, rgba(255, 255, 255, 0) 20.5px);
+    background-image: radial-gradient(circle at 0 0, rgba(255, 255, 255, 0) 14.5px, #fff 15.5px, #fff 19.5px, rgba(255, 255, 255, 0) 20.5px), radial-gradient(circle at 35px 0, rgba(255, 255, 255, 0) 14.5px, #fff 15.5px, #fff 19.5px, rgba(255, 255, 255, 0) 20.5px);
+    background-size: 35px 20px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    text-transform: lowercase;
+    font-style: italic;
+    color: #fff;
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+}
+
+.brace:before {
+    width: 50%;
+    border-top: 5px solid #fff;
+    border-left: 1px solid transparent;
+    /* play with this until you like the look of it */
+    border-top-left-radius: 20% 30px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+
+.brace:after {
+    width: 50%;
+    border-top: 5px solid #fff;
+    border-right: 1px solid transparent;
+    /* play with this until you like the look of it */
+    border-top-right-radius: 20% 30px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: -15px;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+
+b {
+    color: RGBa(44, 86, 0, 1);
+}
+.navbar {
+    background-color: RGBa(44, 86, 0, 1);
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar ul li.active a {
+    background-color: RGBa(4, 156, 100, .51) !important;
+}
+#contact-page {
+    margin-top: 50px;
+}
+.contact-map {
+  width: 100%;
+  height: 385px;
+  margin-bottom: 70px
+}
+
+.contact-info .heading, 
+.contact-form .heading {
+  text-transform: capitalize;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-page 
+.form-control::-moz-placeholder {
+  color: #8D8D8D;
+}
+
+#contact-page .form-control {
+  background-color:RGBa(44,86,0,.2) ;
+  border: 1px solid RGB(44,86,0);
+  color: white;
+  height: 46px;
+  padding: 6px 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow:inherit;
+}
+
+#contact-page #message {
+  height:160px;
+  resize:none;
+}
+
+#main-contact-form .btn-primary {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+
+#contact-page .form-control:focus, 
+#contact-page .form-control:hover {
+  box-shadow: inherit;
+  border-color: RGB(44,86,0);
+}
+
+#contact-page .contact-info {
+  padding: 0 20px;
+}
+
+#contact-page .contact-info address {
+  margin-bottom: 40px;
+  margin-top: -5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#contact-page .contact-info p {
+  margin-bottom: 0;
+  color: #696763;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.social-networks{
+  overflow: hidden;
+  text-align: center;
+}
+
+.social-networks ul {
+  margin-top: -5px;
+  padding: 0;
+  display: inline-block;
+}
+
+.social-networks ul li {
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.social-networks ul li:last-child{
+  margin-right: 0;
+}
+
+.social-networks ul li a {
+  color: #999;
+  font-size: 25px;
+}
+
+.contact-info .social-networks ul li a i{
+  background: none;
+}
+
+.contact-info .social-networks ul li a:hover{
+  color: RGB(44,86,0);
+}
+
+.submit {
+    background-color: RGB(44,86,0);
+    color: white !important;
+}
+footer {
+    height: 50px;
+    background-color: RGB(46,86,0);
+    color: white;
+    line-height: 50px;
+}
+footer a {
+    color: white !important;
+}
+footer li:hover a {
+    color:black !important;
+}
+
+footer * {
+	margin-bottom: 0;
+}
+@media (max-width: 700px) {
+	.navbar-brand, footer p {
+		font-size: 10px;
+	}
+	footer p {
+		text-align: center;
+	}
+}
+#msg1
+{
+	text-align:center;
+	font-size:24px !important;
+	color:#35ff0d;
+}

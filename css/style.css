@@ -1,0 +1,333 @@
+/*
+@-webkit-keyframes fade {
+    0% {
+        opacity: .2;
+        font-size: 13px;
+    }
+    25% {
+        opacity: .6;
+        font-size: 16px;
+    }
+    50% {
+        opacity: 1;
+        font-size: 20px;
+    }
+    
+    75% {
+        opacity: .6;
+        font-size: 16px;
+    }
+    100% {
+        opacity: .2;
+        font-size: 13px;
+    }
+}
+*/
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+        font-size: 13px;
+    }
+    10% {
+        opacity: .2;
+        font-size: 14px;
+    }
+    20% {
+        opacity: .4;
+        font-size: 15px;
+    }
+    
+    30% {
+        opacity: .6;
+        font-size: 16px;
+    }
+    40% {
+        opacity: .8;
+        font-size: 17px;
+    }
+    50% {
+        opacity: 1;
+        font-size: 18px;
+    }
+    60% {
+        opacity: .8;
+        font-size: 17px;
+    }
+    70% {
+        opacity: .6;
+        font-size: 16px;
+    }
+    80% {
+        opacity: .4;
+        font-size: 15px;
+    }
+    90% {
+        opacity: .2;
+        font-size: 13px;
+    }
+    100% {
+        opacity: 0;
+        font-size: 12px;
+    }
+}
+.vticker ul li {
+    -webkit-animation: fade 15s infinite;
+}
+.vticker {
+    border-right: 2px solid white;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+	line-height: 20px;
+	color: #999999;
+	font-size: 300;
+	font-size: 16px;
+    color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #222222;
+}
+p {
+    color: white;
+    line-height: 30px;
+}
+a, a:hover, a:focus, a:active{
+    outline: none;
+}
+
+.section-padding{
+	padding: 60px 0px;
+
+}
+h2 {
+    line-height: 20px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+hr.botm-line {
+    height: 3px;
+    width: 60px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+/***************************************
+home_header
+***************************************/
+.navbar {
+    background-color: RGBa(44, 86, 0, 1);
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar ul li.active a {
+    background-color: RGBa(4, 156, 100, .51) !important;
+}
+button.navbar-toggle {
+	border-color: white;
+}
+span.icon-bar {
+	color: white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+.top-nav-collapse {
+    padding: 0; 
+    background: rgba(44,86,0, 0.9);
+}
+
+.white, .white:hover, .white:focus
+{
+	color: #fff;
+	width: 100% !important;
+}
+.block
+{
+	display: block;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #fff;
+/*    text-transform: uppercase;*/
+    background-color: rgba(44,86,0, 0.21);
+}
+.navbar-default .navbar-nav > li > a
+{
+	color: #fff;
+/*	text-transform: uppercase;*/
+	font-size: 14px;
+	font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	color: #fff;
+/*    text-transform: uppercase;*/
+    background-color: rgba(44,86,0, 0.21);
+}
+.affix {
+    background-color: #ffffff !important;
+}
+.affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
+{
+    background-color: rgba(44,86,0) !important;
+}
+#home_header{
+	background: url('../images/fng.jpg') no-repeat fixed;
+	background-size: cover;
+	min-height: 650px;
+	position: relative;
+}
+.bg-color{
+/*	background-color: RGBA(48, 86, 0, 0.9);*/
+	min-height: 750px;
+    position: relative;
+}
+.wrapper {
+    margin-top: 120px;
+}
+.wrapper img {
+    width: 50%;
+    margin: auto;
+}
+.vticker {
+    height: 100%;
+    margin-top: 120px;
+    color: white;
+}
+
+.vticker ul {
+    width: 100%;
+    text-align: right;
+}
+
+.vticker li {
+    padding: 20px;
+    line-height: 20px;
+}
+
+
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+    margin-top: 30px !important;
+	display:inline-block;
+	position:relative;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+    border: 1px solid white;
+}
+.social-circle li i {
+	margin:0;
+	line-height:48px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+footer {
+    height: 50px;
+    background-color: RGB(46,86,0);
+    color: white;
+    line-height: 50px;
+}
+footer a {
+    color: white !important;
+}
+footer li:hover a {
+    color:black !important;
+}
+
+@media (max-width: 700px) {
+	.navbar-brand, footer p {
+		font-size: 10px;
+	}
+	footer p {
+		text-align: center;
+	}
+}
